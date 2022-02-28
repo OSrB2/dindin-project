@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Ubuntu" , sans-serif;;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #2E948A;
+}
+
+footer {
+
+    background-color: #2E948A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#container-logo {
+    width: 224px;
+    height: 95px;
+    margin-left: 82px;
+    margin-top: 20px;
+}
+
+#footer-logo {
+    height: 80px;
+    padding: 5px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    margin-left: -70px;
+}
+
+#links-footer {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.menu-footer-link {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.menu-item-link {
+    color: #FDFDFD;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#menu {
+    margin-right: 100px;
+    font-size: 20px;
+}
+#links-Rfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.link-footer-right {
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 62px;
+    width: 200px;
+    height: 30px;
+    background-color: #2E948A;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* Final cabeçalho e rodapé */
+
+.tittle h3 {
+    width: 263px;
+    height: 69px;
+    margin-left: 75px;
+    margin-top: 150px;
+    font-size: 60px;
+    line-height: 69px;
+    font-weight: bold;
+    color: #FF4081;
+}
+
+.tittle b {
+    width: 371px;
+    height: 23px;
+    margin-left: 82px;
+    margin-top: 267;
+    font-weight: normal;
+    font: size 20px;
+    line-height: 23px;
+    color: #555555;
+}
+
+/* Sessão 1 */
+
+.container-content1 {
+    display: flex;
+    align-content: center;
+    margin-left: 175px;
+    margin-top: 100px;
+}
+
+.tittle-content {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    padding: 15px;
+}
+
+.text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.container-content1 a {
+    border: 2px solid #419488;
+    background: #419488;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    border-radius: 62px;
+    padding: 5px 35px;
+    cursor: pointer;
+}
+
+/* Sessão 2 */
+
+.container-content2 {
+    display: flex;
+    align-content: center;
+    margin-left: 175px;
+    margin-top: 100px;
+}
+
+.tittle-content {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    padding: 15px;
+}
+
+.text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+.container-content2 a {
+    border: 2px solid #419488;
+    background: #419488;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    border-radius: 62px;
+    padding: 5px 35px;
+    cursor: pointer;
+}
+
+/* Separador */
+hr {
+    border: 500px;
+    border-top: 5px solid #c4c4c4;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+
+/* Sessão 3 */
+
+.container-content3 {
+    display: flex;
+    align-content: center;
+    margin-left: 175px;
+    margin-top: 100px;
+}
+
+.tittle-content {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    padding: 15px;
+}
+
+.text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+.container-content3 a {
+    border: 2px solid #419488;
+    background: #419488;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    border-radius: 62px;
+    padding: 5px 35px;
+    cursor: pointer;
+}
