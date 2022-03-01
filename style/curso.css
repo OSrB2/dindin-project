@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Ubuntu" , sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #2E948A;
+}
+
+
+footer {
+
+    background-color: #2E948A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#container-logo {
+    display: flex;
+    width: 224px;
+    height: 95px;
+    margin-left: 82px;
+    margin-top: 20px;
+}
+
+#footer-logo {
+    display: flex;
+    height: 80px;
+    padding: 5px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    margin-left: -70px;
+}
+
+#links-footer {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.menu-footer-link {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.menu-item-link {
+    color: #FDFDFD;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#menu {
+    margin-right: 100px;
+    font-size: 20px;
+}
+#links-Rfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.link-footer-right {
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 62px;
+    width: 200px;
+    height: 30px;
+    background-color: #2E948A;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* Final cabeçalho e rodapé */
+
+/* Sessão 1 */
+
+.session1 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+
+.container-L h3 {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 63px;
+    color: #ff4081;
+    margin-top: 120px;
+    text-align:justify
+}
+
+.container-L p {
+    display: flex;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    margin-top: 40px;
+    text-align: justify;
+   
+}
+
+.container-R img {
+    margin-top: 120px;    
+}
+
+/* Sessão 2 */
+
+.session2 {
+    background: #F7F7F7;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-top: 50px;  
+}
+
+.session3 {
+    background: #F7F7F7;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;  
+}
+
+.session4 {
+    background: #F7F7F7;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding-bottom: 70px;
+}
+
+.video img {
+    margin-top: 120px;
+   
+}
+
+.text {
+    margin-top: 120px;
+    padding-right: 150px;
+    text-align: justify;
+    
+}
+
+
+
+
+.text h4{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: #ff4081;
+    padding-bottom: 20px;
+
+}
+
+.text p { 
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #000;
+}
+
+
