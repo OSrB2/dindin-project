@@ -170,8 +170,6 @@ footer {
     background-color: #FF4081;
     border-radius: 20px;
     padding: 10px 20px 10px 20px;
-    transition: background 2s;
-    transition: color 1s;
     cursor: pointer;
 }
 
@@ -302,8 +300,6 @@ footer {
     color: #FF4081;
     border-radius: 20px;
     padding: 10px 20px 10px 20px;
-    transition: background 2s;
-    transition: color 1s;
     cursor: pointer;
 }
 

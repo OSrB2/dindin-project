@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Ubuntu" , sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #2E948A;
+}
+
+
+footer {
+
+    background-color: #2E948A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#container-logo {
+    display: flex;
+    width: 224px;
+    height: 95px;
+    margin-left: 82px;
+    margin-top: 20px;
+}
+
+#footer-logo {
+    display: flex;
+    height: 80px;
+    padding: 5px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    margin-left: -70px;
+}
+
+#links-footer {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.menu-footer-link {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.menu-item-link {
+    color: #FDFDFD;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#menu {
+    margin-right: 100px;
+    font-size: 20px;
+}
+#links-Rfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.link-footer-right {
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 62px;
+    width: 200px;
+    height: 30px;
+    background-color: #2E948A;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* Final cabeçalho e rodapé */
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+/* Sessão inicial do site, imagem e texto */
+
+.session1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.session1 img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title h2 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #ff4081;
+}
+
+
+.title h6 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9D9D9D;  
+}
+
+
+.text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: "kern"off;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    font-feature-settings: "kern"off;
+    color: #419488;
+    justify-content: flex-start;
+}
+
+/* Segunda sessão do site, imagens e links */
+.session2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 100px;
+    background: #F7f7f7;
+}
+
+.session2 img{
+    height: 403px;
+}
+
+.title-curse{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #ff4081;
+}
+
+.session2 p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.title-session2 {
+    background: #F7f7f7;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff4081;
+}
+
+/* botões */
+
+.button {
+    text-decoration: none;
+    border: 2px solid #FF4081;
+    color: #fff;
+    background-color: #FF4081;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.session3 {
+    display: flex;
+    background: #F7f7f7;
+    justify-content: space-around;
+}
+
+.buttons {
+    padding-bottom: 85px;
+    padding-left: 25px;
+    justify-content: center;
+}
