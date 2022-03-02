@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Ubuntu" , sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #2E948A;
+}
+
+
+footer {
+
+    background-color: #2E948A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#container-logo {
+    display: flex;
+    width: 224px;
+    height: 95px;
+    margin-left: 82px;
+    margin-top: 20px;
+}
+
+#footer-logo {
+    display: flex;
+    height: 80px;
+    padding: 5px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    margin-left: -70px;
+}
+
+#links-footer {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.menu-footer-link {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.menu-item-link {
+    color: #FDFDFD;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#menu {
+    margin-right: 100px;
+    font-size: 20px;
+}
+#links-Rfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.link-footer-right {
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 62px;
+    width: 200px;
+    height: 30px;
+    background-color: #2E948A;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* Final cabeçalho e rodapé */
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.session-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.title {
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 54px;
+    color: #009688;
+    padding-bottom: 50px;
+}
+
+.title-post {
+    text-decoration: none;
+}
+
+.text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.session1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    gap: 200px;
+    background: #E5E5E5;
+}
+
+.session2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    gap: 200px;
+    background: #E5E5E5;
+}
+
+.session3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    gap: 200px;
+    background: #E5E5E5;
+}
+
+.title-post {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #ff4081;
+}
+
+.text-blog {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
