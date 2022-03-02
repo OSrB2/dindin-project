@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Ubuntu" , sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #2E948A;
+}
+
+
+footer {
+
+    background-color: #2E948A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#container-logo {
+    display: flex;
+    width: 224px;
+    height: 95px;
+    margin-left: 82px;
+    margin-top: 20px;
+}
+
+#footer-logo {
+    display: flex;
+    height: 80px;
+    padding: 5px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    margin-left: -70px;
+}
+
+#links-footer {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.menu-footer-link {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.menu-item-link {
+    color: #FDFDFD;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#menu {
+    margin-right: 100px;
+    font-size: 20px;
+}
+#links-Rfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.link-footer-right {
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 62px;
+    width: 200px;
+    height: 30px;
+    background-color: #2E948A;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* Final cabeçalho e rodapé */
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 70%;
+    margin: 40px auto;
+}
+
+.message form  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    padding: 20px;
+}
+
+.message form * {
+    margin: 5px 0;
+}
+
+.message form h2 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+}
+
+.side-banner {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 50px;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+textarea {
+    height: 100%;
+}
+
+input,
+textarea
+form {
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.message a {
+    text-decoration: none;
+    border: 2px solid #FF4081;
+    color: #fff;
+    background-color: #FF4081;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    justify-content: center;
+}
