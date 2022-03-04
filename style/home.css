@@ -303,11 +303,70 @@ footer {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
-    
+    .container-logo {
+        justify-content: center;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .menu {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .container-content1 {
+        justify-content: center;
+        text-align: center;
+        
+    }
 }
 
-@media only screen and (max-width: 480px) {
-    
+@media screen and (max-width: 480px) {
+    .container-logo {
+        justify-content: center;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .menu {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .container-content1 {
+        justify-content: center;
+        text-align: center;
+        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container-logo {
+        justify-content: center;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .menu {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .container-content1
+    .container-content2
+    .container-content3
+     {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        
+    }
 }

@@ -221,3 +221,68 @@ hr {
     padding: 5px 35px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        width: 100%;
+    }
+
+    #container-logo {
+        width: 35%;
+        justify-content: center;
+    }
+
+    .session-title {
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    #menu {
+        display: none;
+    }
+
+    
+    .image {
+        display: none;
+    }
+
+    .tittle h3 {
+        margin: 0;
+    }
+
+    b {
+    ;
+    }
+
+    .container-content1,
+    .container-content2,
+    .container-content3 {
+        margin: 0;
+        justify-content: center;
+    }
+    #footer-logo {
+        display: none;
+    }
+
+    #links-footer {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    #links-Rfooter {
+        display: none;
+    }
+
+    footer {
+        height: 150px;
+    }
+}
