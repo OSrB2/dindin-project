@@ -211,3 +211,151 @@ body {
     padding-left: 25px;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+
+    #container-logo {
+        margin-left: 40px;
+    }
+
+    #menu {
+        text-align: right;
+        padding-left: 55px;
+    }   
+
+    #footer-logo {
+        padding-left: 50px;
+    }
+
+    .session1 {
+        margin-left: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .session1 img {
+        width: 90%;
+    }
+
+    .session2 {
+        flex-direction: column;
+    }
+
+    /* .session2 img {
+        display: none;
+    } */
+
+    .title-session2 {
+        padding-left: 50px;
+    }
+
+    .session3 {
+       display: none;
+    }
+    
+    
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        width: 100%;
+    }
+
+    #container-logo {
+        margin-left: 40px;
+    }
+
+    #menu {
+        text-align: right;
+        padding-left: 55px;
+    }   
+
+    #footer-logo {
+        display: none;
+    }
+
+    .session1 {
+        margin-left: 5px;
+    }
+
+    .session1 img {
+        width: 90%;
+    }
+
+    .session2 {
+        flex-direction: column;
+    }
+
+    .session2 img {
+        display: none;
+    }
+
+    .title-session2 {
+        padding-left: 50px;
+    }
+
+    .session3 {
+       display: none;
+    }
+    
+    
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        width: 100%;
+    }
+
+    #container-logo {
+        margin-left: 40px;
+    }
+
+    #menu {
+        display: none;
+    }   
+
+    #footer-logo {
+        display: none;
+    }
+
+    .session1 {
+        margin-left: 5px;
+    }
+
+    .session1 img {
+        width: 90%;
+    }
+
+    .session2 {
+        flex-direction: column;
+    }
+
+    .session2 img {
+        display: none;
+    }
+
+    .title-session2 {
+        padding-left: 50px;
+    }
+
+    .session3 {
+       display: none;
+    }
+    
+    
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

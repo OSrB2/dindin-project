@@ -195,10 +195,6 @@ form {
         height: 150px;
     }
 
-    #links-Rfooter {
-        display: none;
-    }
-
     #footer-logo {
         padding-left: 50px;
     }
@@ -263,7 +259,7 @@ form {
     }
 
     #links-footer {
-        flex-direction: row;
+        flex-direction: column;
         gap: 2px;
         justify-content: flex-start;
     }
@@ -274,6 +270,11 @@ form {
     header {
         width: 100%;
     }
+   
+    #container-logo {
+        width: 35%;
+        justify-content: center;
+    }
 
     #menu {
         display: none;
@@ -283,8 +284,19 @@ form {
        display: none;
    }
 
-    footer {
-        height: 150px;
+   #footer-logo {
+       display: none;
+   }
+
+   #links-footer {
+    flex-direction: column;
+    gap: 5px;
     }
-    
+
+
+    footer {
+     
+        height: 90px;
+        justify-content: flex-start;
+    }
 }

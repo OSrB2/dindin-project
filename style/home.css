@@ -304,69 +304,311 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-
-    .container-logo {
-        justify-content: center;
-        text-align: center;
-        margin-left: 0;
-        margin-right: 0;
+    header {
+        width: 100%;
     }
 
-    .menu {
-        justify-content: center;
-        text-align: center;
+    #container-logo {
+        margin-left: 50px;
+    }
+
+    #menu {
+        text-align: right;
+        padding-left: 55px;
+    }
+    
+    #session1-left {
+        margin-left: 105px;
+        margin-bottom: 100px;
+    }
+     
+    #session1-right {
+        display: none;
+    }
+
+    #session2 img {
         flex-direction: column;
     }
 
-    .container-content1 {
-        justify-content: center;
-        text-align: center;
+    #session2 {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #opinions {
+        flex-direction: column;
+    }
+
+    #container-content2 {
+        height: 1950px;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+    #footer-logo {
+        padding-left: 50px;
+    }
+
+    #links-footer {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #session3 {
+        margin: 0;
+        gap: 0;
+    }
+
+    #container-content4 {
+        padding: 30px;
         
+    }
+
+    #container-content4 h4 {
+        margin-left: 50px;
+        padding-top: 62px;
+        
+    }
+
+    .session4{
+        flex-direction: column;
+        gap: 26px;
+        margin: 20px 15px;
+    }
+
+    .session4 img {
+        width: 90%;
+    }
+    .aboutus {
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .message {
+        margin-top: 17px;
+        margin-bottom: 29px;
+        align-content: center;
+    }
+
+    .round-image {
+        height: 190px;
+        margin-right: 180px;
+    }
+
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .button-post {
+        margin-bottom: 15px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .container-logo {
-        justify-content: center;
-        text-align: center;
-        margin-left: 0;
-        margin-right: 0;
+    header {
+        width: 100%;
     }
 
-    .menu {
-        justify-content: center;
-        text-align: center;
+    #container-logo {
+        margin-left: 50px;
+    }
+
+    #menu {
+        text-align: right;
+        padding-left: 55px;
+    }
+    
+    #session1-left {
+        margin-left: 105px;
+        margin-bottom: 100px;
+    }
+     
+    #session1-right {
+        display: none;
+    }
+
+    #session2 img {
+        display: none;
+    }
+
+    #session2 {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #opinions {
         flex-direction: column;
     }
 
-    .container-content1 {
-        justify-content: center;
-        text-align: center;
+    #container-content2 {
+        height: 800px;
+        padding: 0;
+    }
+
+   
+    #footer-logo {
+        display: none;
+    }
+
+    #links-footer {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #session3 {
+        margin: 0;
+        gap: 0;
+    }
+
+    #container-content4 {
+        padding: 0px;
         
+    }
+
+    #container-content4 h4 {
+        margin-left: 15px;
+        margin-top: 0;
+    }
+
+    .session4{
+        flex-direction: column;
+        gap: 26px;
+        margin: 20px 15px;
+    }
+
+    .session4 img {
+        width: 80%;
+    }
+    .aboutus {
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .message {
+        margin-top: 17px;
+        margin-bottom: 29px;
+        align-content: center;
+    }
+
+    .round-image {
+        height: 115px;
+        margin-right: 195px;
+    }
+
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .button-post {
+        margin-bottom: 15px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .container-logo {
-        justify-content: center;
-        text-align: center;
-        margin-left: 0;
-        margin-right: 0;
+    header {
+        width: 100%;
     }
 
-    .menu {
-        justify-content: center;
-        text-align: center;
+    #container-logo {
+        margin-left: 40px;
+    }
+
+    #menu {
+        display: none;
+    }   
+    
+    #session1-left {
+        margin-left: 105px;
+        margin-bottom: 100px;
+    }
+
+    #session1-left h2 {
+        font-size: 55px;
+    }
+    
+    #session1-right {
+        display: none;
+    }
+
+    #session2 img {
+        display: none;
+    }
+
+    #session2 {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #opinions {
         flex-direction: column;
     }
 
-    .container-content1
-    .container-content2
-    .container-content3
-     {
-        justify-content: center;
-        text-align: center;
+    #container-content2 {
+        height: 800px;
+        padding: 0;
+    }
+
+   
+    #footer-logo {
+        display: none;
+    }
+
+    #links-footer {
         flex-direction: column;
+        gap: 5px;
+    }
+
+    #session3 {
+        margin: 0;
+        gap: 0;
+    }
+
+    #container-content4 {
+        padding: 0px;
         
+    }
+
+    #container-content4 h4 {
+        margin-left: 15px;
+        margin-top: 0;
+    }
+
+    .session4{
+        flex-direction: column;
+        gap: 26px;
+        margin: 20px 15px;
+    }
+
+    .session4 img {
+        width: 80%;
+    }
+    .aboutus {
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .message {
+        margin-top: 17px;
+        margin-bottom: 29px;
+        align-content: center;
+    }
+
+    .round-image {
+        height: 118px;
+        margin-right: 118px;
+        gap:15px
+    }
+
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .button-post {
+        margin-bottom: 15px;
     }
 }

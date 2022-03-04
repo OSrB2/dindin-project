@@ -268,9 +268,14 @@ footer {
     }
    
     #container-logo {
-        width: 60%;
+        width: 40%;
         justify-content: center;
 
+    }
+
+    #menu {
+        text-align: right;
+        padding-left: 55px;
     }
 
     .container-R {
@@ -300,9 +305,6 @@ footer {
         display: none;
     }
 
-    #menu {
-        display: none;
-    }
     .session1,
     .session2,
     .session3,
@@ -326,6 +328,11 @@ footer {
     #links-footer {
         flex-direction: row;
         gap: 20px;
+    }
+
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
 }
@@ -386,12 +393,13 @@ footer {
     }
 
     #links-footer {
-        flex-direction: row;
-        gap: 20px;
+        flex-direction: column;
+        gap: 5px;
     }
-
-    #links-Rfooter {
-        display: none;
+  
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
 }
