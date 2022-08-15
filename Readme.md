@@ -2,6 +2,8 @@
 
 Primeiro desafio HandsOn do bootcamp da GamaAcademy, onde deveriamos desenvolver um site baseado em layout pré-determinado, utilizando os conceitos ensinados durante o primeiro módulo do bootcamp.
 
+https://osrb2.github.io/dindin-project/home.html
+
 #### Tecnologias utilizadas:
 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
